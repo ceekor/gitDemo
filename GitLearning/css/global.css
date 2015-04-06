@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary,blockquote {
+  display: block;
+}
+
+code, pre{
+	padding: 0 3px 2px;
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+	border-radius: 3px;
+}
+
+body{
+	color: #4e443c;
+	line-height: 25px;
+	font-size: 14px;
+	font-family: Georgia, "Times New Roman", serif !important;
+	background: #f0efe7 url('images/body_bg.jpg');
+}
+
+a, a:hover, a:visited, a:link, a:focus{
+	text-decoration: none;
+	outline: none;
+}
+
+a{
+	color: blue;
+	font-weight: bold;
+}
+
+a:hover{
+	background-color: #f00;
+	color: #fff;
+	padding: 2px 3px;
+	border: solid 1px #f00;
+	border-radius: 3px;
+}
+
+img{
+	border:none;
+}
+
+table{
+	table-layout: fixed;
+	overflow: hidden;
+}
+
+ul{
+	list-style: none;
+}

@@ -1,0 +1,65 @@
+<div>
+	<div class="actl_item">
+		<h3 class="title">Git in Windows</h3>
+		<div>									
+			<p><a href="http://www.git-scm.com/download/win" title="download git for window">Download</a></p>
+		</div>
+	</div>
+	<div class="actl_item">
+		<h3 class="title">Make Your Identity</h3>
+		<div>									
+			<div>
+				<code class="cmd">git config --global user.name/email</code>
+				<span class="cmd_desp">Set your user name and email address for projects globally.</span>
+			</div>
+		</div>
+	</div>	
+	<div class="actl_item">
+		<h3 class="title">Set SSH Key</h3>
+		<div>									
+			<div>
+				<code class="cmd">ssh-keygen -t rsa -C 'your email'</code>
+				<span class="cmd_desp">Generate SSH key then place id_rsa.pub into github SSHKeys</span>
+			</div>
+		</div>
+	</div>
+	<div class="actl_item">
+		<h3 class="title">Create New Repository</h3>
+		<div>									
+			<div>
+				<code class="cmd">git init [proj-name]</code>
+				<span class="cmd_desp">Initialized empty git repository.</span>
+			</div>
+		</div>
+	</div>
+	<div class="actl_item">
+		<h3 class="title">Add a file</h3>
+		<div>									
+			<div>
+				<code class="cmd">echo 'Hello Git' > welcome.txt</code>
+				<span class="cmd_desp">Create a new file and set some data-info.</span>
+			</div>
+			<div>
+				<code class="cmd">git add welcome.txt</code>
+				<span class="cmd_desp">put the new file into the staging Area.</span>
+			</div>
+			<div>
+				<code class="cmd">git commit -m 'Init git project'</code>
+				<span class="cmd_desp">Submit to the repository with operation tips.</span>
+			</div>
+		</div>
+	</div>
+	<div class="actl_item">
+		<h3 class="title">Push to Remote Repository</h3>
+		<div>									
+			<div>
+				<code class="cmd">git remote add origin [proj-url]</code>
+				<span class="cmd_desp">Associate to the remote repository.</span>
+			</div>
+			<div>
+				<code class="cmd">git push -f origin master</code>
+				<span class="cmd_desp">Force to push all the files of this new project.</span>
+			</div>
+		</div>
+	</div>
+</div>
