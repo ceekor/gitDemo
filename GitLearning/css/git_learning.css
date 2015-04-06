@@ -112,3 +112,9 @@ span.cmd_desp{
 	color: #565656;
 	margin-left: 5px;
 }
+
+span.cmd_pmpt{
+	color: #009919;
+	margin-right: 3px;
+	font-weight: bold;
+}

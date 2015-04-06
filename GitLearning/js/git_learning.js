@@ -49,7 +49,9 @@ function LoadContent(navEL){
 			"class": "artl_item",
 			"data-info": targetInfo
 		});	
-		targetArticleEL.appendTo(arctlContainerEL).load("res/"+targetInfo+".htm");
+		targetArticleEL.appendTo(arctlContainerEL).load("res/"+targetInfo+".htm", function(){
+			targetArticleEL.find("code.cmd").prepend("<span class='cmd_pmpt'>$</span>");
+		});
 	}
 
 	allArticles.hide();
